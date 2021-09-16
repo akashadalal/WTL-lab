@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+E:\Web Techno 1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\387702767.index
+\StudentLogin\src\main\java
+E:\Web Techno 1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1721144416.index
+\LoginExampleStruts1\src

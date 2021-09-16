@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>
+            Student Registration Form
+        </title>
+        <link rel="stylesheet" href="Style.css">
+        <script type="text/javascript" src="validation.js"></script>
+    </head>
+    <body>
+        <h1 align="center">Registration Form</h1>
+        <div class="container">
+            <hr>
+            <form name="stdreg"action="welcome.html">
+                <div class="row">
+                    <div class="col-20">
+                        <label>Username:</label>
+                    </div>
+                    <div class="col-80">
+                        <input type="text"name="uname"placeholder="Your Username">
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-20">
+                            <label>Password:</label>
+                        </div>
+                        <div class="col-80">
+                            <input type="password"name="upwd"placeholder="Your Password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-20">
+                            <label>Confirm Password:</label>
+                        </div>
+                        <div class="col-80">
+                            <input type="password"name="ucpwd"placeholder="Your Confirm Password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-20">
+                            <label>First Name:</label>
+                        </div>
+                        <div class="col-80">
+                            <input type="text"name="fname"placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-20">
+                            <label>Last Name:</label>
+                        </div>
+                        <div class="col-80">
+                            <input type="text" name="lname"placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-20">
+                            <label>Gender:</label>
+                        </div>
+                        <div class="col-80">
+                            <input type="radio"name="gender" value="Male">Male
+                            <input type="radio"name="gender" value="Female">Female
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-20">
+                                <label>E-mail:</label>
+                            </div>
+                            <div class="col-80">
+                                <input type="text" name="uemail"placeholder="E-mail">
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-20">
+                            <label>Course:</label>
+                        </div>
+                        <div class="col-80">
+                            <select name="ucourse">
+                                <option>SE COMP</option>
+                                <option>TE COMP</option>
+                                <option>BE COMP</option>
+                            </select>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="col-20">
+                                <label>Mobile No:</label>
+                            </div>
+                            <div class="col-80">
+                                <input type="text" name="umno"placeholder="Your Mobile Number">
+                            </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit" onclick="return validate();">
+                        <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+        </body>
+</html>

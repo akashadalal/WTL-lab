@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Validation</title>
+    
+    <style type="text/css">
+        body {
+            text-align: center;
+            font-family: sans-serif;
+            background-color: burlywood;
+        }
+    </style>
+    <script type="text/Javascript" src="validation.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center">Form Validation using Javascript</h1>
+    <div id="container">
+    <form id="validform" name="validateform">
+        
+        Student Roll no: <input type="number" id="rno"><p id="rollno" style="color: red"></p><br >
+        <br >
+        Student Name: <input type="text" id="name"><p id="fname" style="color: red"></p><br >
+        <br >
+        Year of Engineering (FE/SE/TE/BE): <input type="text" id="year"><p id="yoe" style="color: red"></p><br >
+        <br >
+        Branch of Engineering: <input type="text" id="branch"><p id="boe" style="color: red"></p><br >
+        <br >
+        Mobile number: <input type="number" id="mobile"><p id="mno" style="color: red"></p><br >
+        <br >
+        Email ID: <input type="email" id="email"><p id="emailid" style="color: red"></p><br >
+        <br >
+        Was this assignment Succesful?: <input type="radio" id="ans1" checked>Yes<input type="radio" id="ans2">No<br >
+        
+        <button type="button" id="submit" onclick="return validateForm()">Submit</button>
+        
+    </form>
+    </div>
+</body>
+</html>
